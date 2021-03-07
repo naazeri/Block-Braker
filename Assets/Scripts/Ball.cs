@@ -10,7 +10,7 @@ public class Ball : MonoBehaviour
     private Vector2 _spaceBetweenBallAndPaddle;
     private bool _hasStarted = false;
 
-    // cached component refrences
+    // cached component references
     private AudioSource myAudioSource;
 
     void Start()
