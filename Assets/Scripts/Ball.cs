@@ -53,6 +53,7 @@ public class Ball : MonoBehaviour
             var randomIndex = UnityEngine.Random.Range(0, ballSounds.Length);
             var clip = ballSounds[randomIndex];
             myAudioSource.PlayOneShot(clip);
+            Debug.Log("Play");
         }
     }
 }
